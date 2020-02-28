@@ -1,1 +1,53 @@
-{"blocks":"<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"hs_title\" id=\"bF1}-RZF-;*goLu20!(9\" x=\"46\" y=\"-568\"><field name=\"LEVEL\">h1</field><statement name=\"ITEMS\"><block type=\"hs_text\" id=\"%;7%O?*Yb.a@Pt3{;Fa.\"><field name=\"TEXT\">\"La Pochi que poʤi\" </field></block></statement><next><block type=\"bs_alert\" id=\"YZ~0$$2VhhS7loqpJ*,e\"><field name=\"TYPE\">info</field><statement name=\"ITEMS\"><block type=\"hs_text\" id=\"Ld215p|O%lVj?p%MW8bN\"><field name=\"TEXT\">Hola a todes! Este es el comienzo de lo que será un blog personal, algo así como una </field><next><block type=\"hs_wraptext\" id=\"wVwhTPh#EWQAQwg@a_f*\"><field name=\"TEXT\">vitácora virtual</field><field name=\"TYPE\">strong</field></block></next></block></statement><next><block type=\"bs_alert\" id=\"Pg~^c*iV]epP^Ox67=.s\"><field name=\"TYPE\">primary</field><statement name=\"ITEMS\"><block type=\"hs_text\" id=\"MYA5u=4f^Oq4iLts%XVy\"><field name=\"TEXT\">Me gustaría, entonces documentar mis viajes y \"aventuras\", ya que las vitácoras de papel no me funcionan tan bien. </field></block></statement><next><block type=\"bs_card\" id=\"7=-_|JM6PxtWS.szi[:r\"><statement name=\"ITEMS\"><block type=\"bs_card_image\" id=\"D@rY~:vAv1(:YYlpM4~:\"><field name=\"SRC\">https://github.com/josebussana/josebussana.github.io/blob/master/img/IMG_20191215_210949977.jpg</field><field name=\"ALT\">Mochila extraviada y recuperada </field><field name=\"TYPE\">bottom</field><next><block type=\"bs_card_body\" id=\"n/ZpSC1-|s|{!5mR5DRV\"><statement name=\"ITEMS\"><block type=\"hs_title\" id=\"=/RFxMPia^c*;9quSP^B\"><field name=\"LEVEL\">h1</field><statement name=\"ITEMS\"><block type=\"hs_text\" id=\"s*pwKYAMX;AmL=@JOKzO\"><field name=\"TEXT\">Europa 2020 </field></block></statement></block></statement></block></next></block></statement></block></next></block></next></block></next></block></xml>"}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Pagina</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body class="p-3">
+  <!-- v -->
+<h1>"La Pochi que poʤi" </h1>
+
+<div class="alert alert-info">
+  Hola a todes! Este es el comienzo de lo que será un blog personal, algo así como una 
+  <strong>vitácora virtual.</strong>
+</div>
+
+<div class="alert alert-primary">
+  Me gustaría, entonces documentar mis viajes y "aventuras", ya que las vitácoras de papel no me funcionan tan bien. 
+</div>
+
+<div class="card">
+  <img class="card-img-bottom" src="img/image.jpg" alt="Mochila extraviada y recuperada ">
+  <div class="card-body">
+    <h1>Europa 2020 on a Budget  </h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" src="img/image.jpg" alt="">
+        <div class="card-body">
+          <h4>Primera parada:<h1>Barcelona </h1></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" src="img/image.jpg" alt="imagen de...">
+        <div class="card-body">
+          <h4>Segunda parada: </h4>
+          <h1>Karlsruhe </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- ^ -->
+  </body>
+</html>
